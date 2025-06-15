@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css"> 
@@ -37,18 +36,18 @@
         <section id="hero" class="hero-section">
             <div class="swiper hero-swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image: url('imagens/hero-1.jpg');">
+                    <div class="swiper-slide" style="background-image: url('hero-1.jpg');">
                         <div class="hero-content">
                             <h1 data-aos="fade-up">Toda a comunicação da sua Marca, feita em um só lugar!</h1>
                             <a href="#solucoes" class="cta-button" data-aos="fade-up" data-aos-delay="200">Conheça nossas soluções</a>
                         </div>
                     </div>
-                    <div class="swiper-slide" style="background-image: url('imagens/hero-2.jpg');">
+                    <div class="swiper-slide" style="background-image: url('hero-2.jpg');">
                         <div class="hero-content">
                             <h1>Projetos Especiais que Materializam suas Ideias</h1>
                         </div>
                     </div>
-                    <div class="swiper-slide" style="background-image: url('imagens/hero-3.jpg');">
+                    <div class="swiper-slide" style="background-image: url('hero-3.jpg');">
                         <div class="hero-content">
                             <h1>Comunicação Visual de Grande Impacto para Eventos</h1>
                         </div>
@@ -66,15 +65,15 @@
                 <p class="section-subtitle">Somos apaixonados por soluções criativas e materializar ideias com excelência é o nosso combustível diário. Com equipamentos de alta tecnologia e uma equipe qualificada, garantimos o sucesso em todos os projetos de nossos clientes.</p>
                 <div class="team-grid">
                     <div class="team-member" data-aos="fade-right">
-                        <img src="imagens/darci-foto.jpeg" alt="Foto de Darci Rodrigues" class="profile-pic">
+                        <img src="darci-foto.jpeg" alt="Foto de Darci Rodrigues" class="profile-pic">
                         <h3>Darci Rodrigues</h3><h4>CEO</h4>
                     </div>
                     <div class="team-member" data-aos="fade-up">
-                        <img src="imagens/pedro-foto.jpeg" alt="Foto de Pedro Gustavo" class="profile-pic">
+                        <img src="pedro-foto.jpeg" alt="Foto de Pedro Gustavo" class="profile-pic">
                         <h3>Pedro Gustavo</h3><h4>COO</h4>
                     </div>
                     <div class="team-member" data-aos="fade-left">
-                        <img src="imagens/paulo-foto.jpeg" alt="Foto de Paulo Ricardo" class="profile-pic">
+                        <img src="paulo-foto.jpeg" alt="Foto de Paulo Ricardo" class="profile-pic">
                         <h3>Paulo Ricardo</h3><h4>CMO</h4>
                     </div>
                 </div>
@@ -106,15 +105,15 @@
                     <button class="filter-btn" data-filter=".especiais">Projetos Especiais</button>
                 </div>
                 <div class="portfolio-grid">
-                    <div class="portfolio-item offset"><img src="imagens/portfolio-offset-1.jpg" alt="Stopper da Nissin"></div>
-                    <div class="portfolio-item especiais"><img src="imagens/portfolio-especiais-1.jpg" alt="Letra Caixa #souituber"></div>
-                    <div class="portfolio-item visual"><img src="imagens/portfolio-visual-1.jpg" alt="Display de Chão Legends"></div>
-                    <div class="portfolio-item digital"><img src="imagens/portfolio-digital-1.jpg" alt="Tags da Marisa"></div>
-                    <div class="portfolio-item especiais"><img src="imagens/portfolio-especiais-2.jpg" alt="Púlpito Fundação Bradesco"></div>
-                    <div class="portfolio-item especiais"><img src="imagens/portfolio-especiais-3.jpg" alt="Display Tanqueray"></div>
-                    <div class="portfolio-item digital"><img src="imagens/portfolio-digital-2.jpg" alt="Catálogos Impressão Digital"></div>
-                    <div class="portfolio-item visual"><img src="imagens/portfolio-visual-2.jpg" alt="Adesivação de Frota Mobil"></div>
-                    <div class="portfolio-item especiais"><img src="imagens/portfolio-especiais-4.jpg" alt="Totem Iluminado Merck"></div>
+                    <div class="portfolio-item offset"><img src="portfolio-offset-1.jpg" alt="Stopper da Nissin"></div>
+                    <div class="portfolio-item especiais"><img src="portfolio-especiais-1.jpg" alt="Letra Caixa #souituber"></div>
+                    <div class="portfolio-item visual"><img src="portfolio-visual-1.jpg" alt="Display de Chão Legends"></div>
+                    <div class="portfolio-item digital"><img src="portfolio-digital-1.jpg" alt="Tags da Marisa"></div>
+                    <div class="portfolio-item especiais"><img src="portfolio-especiais-2.jpg" alt="Púlpito Fundação Bradesco"></div>
+                    <div class="portfolio-item especiais"><img src="portfolio-especiais-3.jpg" alt="Display Tanqueray"></div>
+                    <div class="portfolio-item digital"><img src="portfolio-digital-2.jpg" alt="Catálogos Impressão Digital"></div>
+                    <div class="portfolio-item visual"><img src="portfolio-visual-2.jpg" alt="Adesivação de Frota Mobil"></div>
+                    <div class="portfolio-item especiais"><img src="portfolio-especiais-4.jpg" alt="Totem Iluminado Merck"></div>
                 </div>
             </div>
         </section>
@@ -148,10 +147,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script>
-        // Inicializa Animações
         AOS.init({ duration: 800, once: true });
-
-        // Inicializa Carrossel
         const swiper = new Swiper('.hero-swiper', {
             loop: true,
             autoplay: { delay: 5000 },
@@ -160,16 +156,12 @@
                 prevEl: '.swiper-button-prev',
             },
         });
-
-        // Menu Hambúrguer
         const navToggle = document.querySelector('.nav-toggle');
         const navMenu = document.querySelector('.nav-menu');
         navToggle.addEventListener('click', () => {
             navMenu.classList.toggle('active');
             navToggle.classList.toggle('active');
         });
-
-        // Filtro do Portfólio (Isotope)
         window.onload = () => {
             const iso = new Isotope('.portfolio-grid', {
                 itemSelector: '.portfolio-item',
@@ -180,8 +172,6 @@
                 if (!event.target.matches('button')) return;
                 const filterValue = event.target.getAttribute('data-filter');
                 iso.arrange({ filter: filterValue });
-
-                // Lógica do botão ativo
                 document.querySelector('.filter-btn.active').classList.remove('active');
                 event.target.classList.add('active');
             });
