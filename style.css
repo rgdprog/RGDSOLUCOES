@@ -6,7 +6,7 @@
     --off-white: #F1FAEE;
     --dark-grey: #333;
     --font-family: 'Poppins', sans-serif;
-    --header-height: 90px;
+    --header-height: 110px;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
