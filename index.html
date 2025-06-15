@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGD Soluções Gráficas - Criar, Transformar & Realizar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="nav-container">
+            <a href="#"><img src="logo-rgd.png" alt="Logo RGD Soluções Gráficas" class="header-logo"></a>
+            <button class="nav-toggle" aria-label="abrir menu">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+            </button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#solucoes">Soluções</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="swiper hero-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url('imagens/hero-1.jpg');">
+                        <div class="hero-content">
+                            <h1 data-aos="fade-up">Toda a comunicação da sua Marca, feita em um só lugar!</h1>
+                            <a href="#solucoes" class="cta-button" data-aos="fade-up" data-aos-delay="200">Conheça nossas soluções</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('imagens/hero-2.jpg');">
+                        <div class="hero-content">
+                            <h1>Projetos Especiais que Materializam suas Ideias</h1>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('imagens/hero-3.jpg');">
+                        <div class="hero-content">
+                            <h1>Comunicação Visual de Grande Impacto para Eventos</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section">
+            <div class="container" data-aos="fade-up">
+                <span class="section-tagline">34 anos de expertise</span>
+                <h2>Criar, transformar & realizar</h2>
+                <p class="section-subtitle">Somos apaixonados por soluções criativas e materializar ideias com excelência é o nosso combustível diário. Com equipamentos de alta tecnologia e uma equipe qualificada, garantimos o sucesso em todos os projetos de nossos clientes.</p>
+                <div class="team-grid">
+                    <div class="team-member" data-aos="fade-right">
+                        <img src="imagens/darci-foto.jpeg" alt="Foto de Darci Rodrigues" class="profile-pic">
+                        <h3>Darci Rodrigues</h3><h4>CEO</h4>
+                    </div>
+                    <div class="team-member" data-aos="fade-up">
+                        <img src="imagens/pedro-foto.jpeg" alt="Foto de Pedro Gustavo" class="profile-pic">
+                        <h3>Pedro Gustavo</h3><h4>COO</h4>
+                    </div>
+                    <div class="team-member" data-aos="fade-left">
+                        <img src="imagens/paulo-foto.jpeg" alt="Foto de Paulo Ricardo" class="profile-pic">
+                        <h3>Paulo Ricardo</h3><h4>CMO</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="solucoes" class="section bg-light">
+            <div class="container" data-aos="fade-up">
+                <h2>Qual ideia podemos produzir para você hoje?</h2>
+                <div class="solutions-grid">
+                    <div class="solution-card"><h3>Impressão Offset e UV</h3></div>
+                    <div class="solution-card"><h3>Impressão Digital</h3></div>
+                    <div class="solution-card"><h3>Comunicação Visual</h3></div>
+                    <div class="solution-card"><h3>Projetos Especiais</h3></div>
+                    <div class="solution-card"><h3>Aramados</h3></div>
+                    <div class="solution-card"><h3>Brindes Corporativos</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <div class="container" data-aos="fade-up">
+                <h2>Projetos de Sucesso</h2>
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="*">Todos</button>
+                    <button class="filter-btn" data-filter=".offset">Offset/UV</button>
+                    <button class="filter-btn" data-filter=".digital">Digital</button>
+                    <button class="filter-btn" data-filter=".visual">Comunicação Visual</button>
+                    <button class="filter-btn" data-filter=".especiais">Projetos Especiais</button>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item offset"><img src="imagens/portfolio-offset-1.jpg" alt="Stopper da Nissin"></div>
+                    <div class="portfolio-item especiais"><img src="imagens/portfolio-especiais-1.jpg" alt="Letra Caixa #souituber"></div>
+                    <div class="portfolio-item visual"><img src="imagens/portfolio-visual-1.jpg" alt="Display de Chão Legends"></div>
+                    <div class="portfolio-item digital"><img src="imagens/portfolio-digital-1.jpg" alt="Tags da Marisa"></div>
+                    <div class="portfolio-item especiais"><img src="imagens/portfolio-especiais-2.jpg" alt="Púlpito Fundação Bradesco"></div>
+                    <div class="portfolio-item especiais"><img src="imagens/portfolio-especiais-3.jpg" alt="Display Tanqueray"></div>
+                    <div class="portfolio-item digital"><img src="imagens/portfolio-digital-2.jpg" alt="Catálogos Impressão Digital"></div>
+                    <div class="portfolio-item visual"><img src="imagens/portfolio-visual-2.jpg" alt="Adesivação de Frota Mobil"></div>
+                    <div class="portfolio-item especiais"><img src="imagens/portfolio-especiais-4.jpg" alt="Totem Iluminado Merck"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section bg-dark">
+            <div class="container" data-aos="fade-up">
+                <h2>Fale Conosco</h2>
+                <p class="section-subtitle">Vamos transformar sua ideia em realidade. Envie sua mensagem ou entre em contato pelos nossos canais.</p>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Informações de Contato</h3>
+                        <p><strong>Telefone:</strong> (11) 97110-9698</p>
+                        <p><strong>E-mail:</strong> rgddistribuidora@gmail.com</p>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" name="name" placeholder="Seu nome" required>
+                        <input type="email" name="email" placeholder="Seu e-mail" required>
+                        <textarea name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+                        <button type="submit" class="cta-button">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2024 RGD Soluções Gráficas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script>
+        // Inicializa Animações
+        AOS.init({ duration: 800, once: true });
+
+        // Inicializa Carrossel
+        const swiper = new Swiper('.hero-swiper', {
+            loop: true,
+            autoplay: { delay: 5000 },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+        // Menu Hambúrguer
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        // Filtro do Portfólio (Isotope)
+        window.onload = () => {
+            const iso = new Isotope('.portfolio-grid', {
+                itemSelector: '.portfolio-item',
+                layoutMode: 'fitRows'
+            });
+            const filtersElem = document.querySelector('.portfolio-filters');
+            filtersElem.addEventListener('click', (event) => {
+                if (!event.target.matches('button')) return;
+                const filterValue = event.target.getAttribute('data-filter');
+                iso.arrange({ filter: filterValue });
+
+                // Lógica do botão ativo
+                document.querySelector('.filter-btn.active').classList.remove('active');
+                event.target.classList.add('active');
+            });
+        };
+    </script>
+</body>
+</html>
